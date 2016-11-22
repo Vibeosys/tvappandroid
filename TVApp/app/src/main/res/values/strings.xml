@@ -11,4 +11,6 @@
     <string name="str_more">More</string>
     <string name="comment">Write something...</string>
     <string name="news_top_stories"><![CDATA[<p><font color="#000000"><b>News</b> Top Stories</font><p>]]></string>
+    <string name="str_s_ns">S and S</string>
+    <string name="offer">Offers and advertise</string>
 </resources>

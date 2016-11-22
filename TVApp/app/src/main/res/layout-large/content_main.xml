@@ -68,7 +68,7 @@
                                     android:layout_height="wrap_content"
                                     android:src="@drawable/location" />
 
-                                <com.tvapp.views.RobotoTextView
+                                <com.tvapp.views.RobotoRegular
                                     android:id="@+id/txtCocktails"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"

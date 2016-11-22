@@ -101,7 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="1dp"
-            android:src="@drawable/more" />
+            android:src="@drawable/sns" />
 
         <com.tvapp.views.RobotoTextView
             android:id="@+id/txtSearch"
@@ -109,7 +109,34 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:padding="1dp"
-            android:text="@string/str_more"
+            android:text="@string/str_s_ns"
+            android:textColor="@color/bottom_text_colour"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/moreAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/imgAds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:src="@drawable/ads" />
+
+        <com.tvapp.views.RobotoTextView
+            android:id="@+id/txtAds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:padding="1dp"
+            android:text="@string/offer"
             android:textColor="@color/bottom_text_colour"
             android:textSize="12sp" />
     </LinearLayout>
