@@ -95,6 +95,9 @@
                                     android:background="@drawable/video"
                                     android:src="@drawable/overlay" />
 
+                                <include layout="@layout/bottom_video_menu"></include>
+
+
                                 <com.tvapp.views.RobotoTextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -105,16 +108,46 @@
                                     android:textColor="@color/secondaryText"
                                     android:textSize="16sp" />
 
-                                <com.tvapp.views.RobotoTextView
-                                    android:layout_width="wrap_content"
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="16dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp"
+                                android:background="@drawable/video_back"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginBottom="6dp"
                                     android:layout_marginLeft="12dp"
                                     android:layout_marginRight="12dp"
-                                    android:singleLine="true"
-                                    android:text="Comments"
-                                    android:textColor="@color/primaryText"
-                                    android:textSize="20sp" />
+                                    android:layout_marginTop="6dp"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <com.tvapp.views.RobotoTextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="2dp"
+                                        android:layout_weight="1"
+                                        android:singleLine="true"
+                                        android:text="Comments"
+                                        android:textColor="@color/primaryText"
+                                        android:textSize="20sp" />
+
+                                    <ImageView
+                                        android:id="@+id/imgAds"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+                                        android:layout_margin="2dp"
+                                        android:src="@drawable/comment_video" />
+                                </LinearLayout>
+
 
                                 <View
                                     android:layout_width="match_parent"

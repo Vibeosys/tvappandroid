@@ -57,7 +57,7 @@
             android:padding="1dp"
             android:text="@string/str_tv_shows"
             android:textColor="@color/bottom_text_colour"
-            android:textSize="12sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -84,7 +84,7 @@
             android:padding="1dp"
             android:text="@string/str_update"
             android:textColor="@color/bottom_text_colour"
-            android:textSize="12sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -111,7 +111,7 @@
             android:padding="1dp"
             android:text="@string/str_s_ns"
             android:textColor="@color/bottom_text_colour"
-            android:textSize="12sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -138,6 +138,6 @@
             android:padding="1dp"
             android:text="@string/offer"
             android:textColor="@color/bottom_text_colour"
-            android:textSize="12sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 </LinearLayout>

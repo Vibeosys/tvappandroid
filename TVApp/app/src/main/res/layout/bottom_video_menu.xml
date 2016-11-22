@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:background="@color/bottom_strip_color"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/imgGames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:padding="1dp"
+            android:src="@drawable/share_video" />
+
+        <com.tvapp.views.RobotoTextView
+            android:id="@+id/txtGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:padding="1dp"
+            android:text="@string/str_share"
+            android:textColor="@color/bottom_text_colour"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/imgCocktails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:padding="1dp"
+            android:src="@drawable/like_video" />
+
+        <com.tvapp.views.RobotoTextView
+            android:id="@+id/txtCocktails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:padding="1dp"
+            android:text="@string/str_like"
+            android:textColor="@color/bottom_text_colour"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <com.tvapp.views.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/edit_text_back"
+            android:text="21,930"
+            android:textColor="@color/bottom_text_colour"
+            android:textSize="16sp" />
+
+        <com.tvapp.views.RobotoTextView
+            android:id="@+id/txtCures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:padding="1dp"
+            android:text="Views"
+            android:textColor="@color/bottom_text_colour"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

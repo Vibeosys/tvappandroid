@@ -13,4 +13,6 @@
     <string name="news_top_stories"><![CDATA[<p><font color="#000000"><b>News</b> Top Stories</font><p>]]></string>
     <string name="str_s_ns">S and S</string>
     <string name="offer">Offers and advertise</string>
+    <string name="str_share">Share</string>
+    <string name="str_like">Like</string>
 </resources>
