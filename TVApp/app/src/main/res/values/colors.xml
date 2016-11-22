@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#b4b4b4</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bottom_strip_color">#ffffff</color>
+    <color name="bottom_text_colour">#b6b6b6</color>
+    <color name="bottom_selected_text_colour">#3498db</color>
+    <color name="secondaryText">#d863666b</color>
+    <color name="primaryText">#eb2f3031</color>
+    <color name="coming_up_title">#e2dfdf</color>
+    <color name="coming_up_text">#cfcfcf</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="black_overGray">#b5000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

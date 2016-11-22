@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TV App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="str_live_tv">Live TV</string>
+    <string name="str_tv_shows">Shows</string>
+    <string name="str_update">Updates</string>
+    <string name="str_more">More</string>
+    <string name="comment">Write something...</string>
+    <string name="news_top_stories"><![CDATA[<p><font color="#000000"><b>News</b> Top Stories</font><p>]]></string>
+</resources>
