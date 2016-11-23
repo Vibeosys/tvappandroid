@@ -33,15 +33,15 @@
                     android:id="@+id/news_heading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="POLITICO"
-                    android:textColor="@color/colorAccent"
+                    android:text="US Election"
+                    android:textColor="@android:color/black"
                     android:textSize="18sp" />
 
                 <com.tvapp.views.RobotoBoldBlack
                     android:id="@+id/news_details"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="How President Trump Could Reshape the Super..."
+                    android:text="During the US president election campagin..."
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -110,8 +110,8 @@
                         android:id="@+id/news_heading2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Market"
-                        android:textColor="@color/black_overGray"
+                        android:text="World"
+                        android:textColor="@android:color/black"
                         android:textSize="18sp"
                         android:textStyle="italic" />
 
@@ -119,8 +119,8 @@
                         android:id="@+id/news_heading1_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Watch"
-                        android:textColor="@android:color/holo_green_dark"
+                        android:text="News"
+                        android:textColor="@android:color/black"
                         android:textSize="18sp"
                         android:textStyle="italic" />
                 </LinearLayout>
@@ -130,7 +130,7 @@
                     android:id="@+id/news_details2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Trump vows to immediately deport up to 3 million und..."
+                    android:text="India–United States relations refers to the international relations..."
                     android:textColor="@android:color/black"
                     android:textSize="18sp" />
 
@@ -194,15 +194,15 @@
                     android:id="@+id/news_heading3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TIME"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:text="Hollywood"
+                    android:textColor="@android:color/black"
                     android:textSize="18sp" />
 
                 <com.tvapp.views.RobotoBoldBlack
                     android:id="@+id/news_details3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Doctor Strange Dominates in Second Film Say Box Office..."
+                    android:text="Iron Man is a 2008 American superhero film featuring..."
                     android:textColor="@android:color/black"
                     android:textSize="18sp" />
 
@@ -278,7 +278,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="4dp"
-                        android:text="USA TODAY"
+                        android:text="USA NEWS"
                         android:textColor="@android:color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -359,7 +359,7 @@
                     android:id="@+id/news_details5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="40 things we learned in Week 10 of the 2016 NFL.."
+                    android:text="The history of Greece is one of the longest of any country.."
                     android:textColor="@android:color/black"
                     android:textSize="18sp" />
 
